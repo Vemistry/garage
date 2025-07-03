@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* biến font nếu muốn dùng */
+  --font-be-vietnam: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-be-vietnam);
+}
+
+.center-toast {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 9999 !important;
+  background-color: #333 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  pointer-events: auto; /* để người dùng có thể bấm nút nếu cần */
+}
+
+.react-datepicker__portal {
+  background-color: transparent !important;
+  backdrop-filter: none !important;
+}
+
+/* Ẩn các giờ bị disabled (những giờ không nằm trong khoảng cho phép) */
+.react-datepicker__time-list-item--disabled {
+  display: none;
+}
