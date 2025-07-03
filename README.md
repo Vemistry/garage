@@ -31,13 +31,14 @@ garage/
 - Chạy file SQL trong thư mục `/sql` để tạo bảng và dữ liệu mẫu
 
 ### 2. Chạy Backend
-
+```
 cd backend
 npm install           # Cài đặt dependencies
 npm run dev           # Chạy server backend
-
+```
 ### 3. Chạy Frontend
-
+```
 cd frontend
 npm install           # Cài đặt dependencies
 npm run dev           # Chạy ứng dụng React
+```
