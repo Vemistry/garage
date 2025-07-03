@@ -14,6 +14,7 @@ garage/
 ├── frontend/     # Giao diện người dùng (React)
 ├── sql/          # File SQL để khởi tạo cơ sở dữ liệu PostgreSQL
 ├── README.md     # Hướng dẫn sử dụng
+```
 
 ---
 
