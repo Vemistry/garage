@@ -8,11 +8,12 @@ Dự án phần mềm quản lý garage bao gồm 3 phần chính:
 
 ## 📁 Cấu trúc thư mục
 
+```bash
 garage/
-├── backend/ # API server (Node.js + Express)
-├── frontend/ # Giao diện người dùng (React)
-├── sql/ # File SQL để khởi tạo cơ sở dữ liệu PostgreSQL
-├── README.md # Hướng dẫn sử dụng
+├── backend/      # API server (Node.js + Express)
+├── frontend/     # Giao diện người dùng (React)
+├── sql/          # File SQL để khởi tạo cơ sở dữ liệu PostgreSQL
+├── README.md     # Hướng dẫn sử dụng
 
 ---
 
