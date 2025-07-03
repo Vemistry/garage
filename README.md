@@ -1,4 +1,4 @@
-Dự án phần mềm quản lý garage bao gồm 3 phần chính:
+Dự án website quản lý garage ô tô gồm 3 phần chính:
 
 - **Backend**: Node.js (Express)
 - **Frontend**: React
@@ -26,7 +26,7 @@ garage/
 
 ### 1. Tạo cơ sở dữ liệu PostgreSQL
 
-- Mở phần mềm quản lý PostgreSQL (pgAdmin, DBeaver, hoặc dùng psql CLI)
+- Mở phần mềm quản lý PostgreSQL (pgAdmin)
 - Tạo một database mới `garage`
 - Chạy file SQL trong thư mục `/sql` để tạo bảng và dữ liệu mẫu
 
